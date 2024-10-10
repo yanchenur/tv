@@ -2,7 +2,7 @@ name: itvlist
 
 on:
   schedule:
-    - cron: '35 13 * * *'  # 每天12:45 PM执行
+    - cron: '45 13 * * *'  # 每天12:45 PM执行
   push:
     branches:
       - main  # 仅在推送到main分支时触发
